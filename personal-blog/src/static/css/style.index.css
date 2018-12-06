@@ -1,0 +1,105 @@
+.wapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border-bottom:solid 4px #678F72;
+     
+}
+.header{
+    width: 70%;
+    margin: 0 auto;
+}
+.air{
+    width: 70%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background:url('../images/daoh.gif') repeat-x;
+}
+.nav span{
+    flex:1;
+    line-height: 40px;
+    text-align: center;
+    height: 100%;
+    background: url('../images/menu01.gif') no-repeat center;
+    background-size: 90%;
+}
+.nav span a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+.content{
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 4px;
+}
+.router-link-active{
+    background: rgba(255,255,255,.4)
+}
+
+.mobile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mobile .scroll{
+    flex:1;
+    overflow-y: scroll;
+}
+.mobile .scroll .main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.mobile .scroll .branner{
+    width: 100%;
+    overflow: hidden;
+}
+.branner ul li{
+    width: 100%;
+}
+.mobile .footer{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    flex: 1;
+}
+.footer p a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

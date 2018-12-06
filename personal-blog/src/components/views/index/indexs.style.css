@@ -1,0 +1,98 @@
+.indexs_pc{
+    width: 100%;
+}
+.indexs_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.indexs_main .left,.indexs_main .right{
+    width: 210px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    min-height: 600px;
+    background:url('../../../static/images/lb.gif');
+}
+.main_con{
+    width: 100%;
+}
+.center{
+    flex:1;
+    box-sizing: border-box;
+    padding: 10px;
+    min-height: 600px;
+    margin: 0 10px;
+    background:url('../../../static/images/lb.gif');
+}
+.center .branner{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.img img{
+    width: 100%;
+}
+.center h4,.yd h4{
+    width: 100%;
+    line-height: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color:#fff;
+    padding:0 10px;
+    background: url("../../../static/images/img.gif") no-repeat ;
+    background-position: 0 -160px;
+}
+.content{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ccc;
+}
+.content h6{
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.content .title_name{
+    font-size: 18px;
+}
+.content .content_titleji{
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.content .content_name{
+    text-align: right;
+}
+.content p{
+    box-sizing: border-box;
+    padding: 0 10px;
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+.inleft{
+    width: 100%;
+    border:solid 1px #ccc;
+    height: 100%;
+}
+.inleft video{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: url('../../../static/images/bj05.png');
+}
+.inyd .main{
+    width: 100%;
+    height: auto;
+}
+.inyd .main .content{
+    width: 100%;
+}

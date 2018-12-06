@@ -1,0 +1,74 @@
+.selfintroduction{
+    width: 100%;
+    height: auto;
+    background:url('../../../static/images/lb.gif') ;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.selfintroduction_con{
+    width: 100%;
+    height: 100%;
+    border:solid 1px #aaa;
+    position: relative;
+    
+}
+.selfintroduction_con .line{
+    width: 1px;
+    height:100%;
+    position: absolute;
+    left:20px;
+    top:0;
+    background: #aaa;
+}
+.selfintroduction_con ul{
+    width: 100%;
+    height: auto;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+.selfintroduction_con ul li{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 40px;
+    border-bottom: solid 1px #aaa;
+}
+.selfintroduction_con ul li b{
+    width: 8px;
+    height: 8px;
+    background: #aaa;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    vertical-align: middle;
+    left:-23px;
+    top:0px;
+}
+.selfintroduction_foot{
+    margin-top: 10px;
+}
+.selfintroduction_head,.selfintroduction_foot{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.selfintroduction_head h5,.selfintroduction_foot h5{
+    width: 100%;
+    height: 40px;
+    background: url('../../../static/images/daoh.gif') repeat-x;
+    color:#fff;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: '华文行楷';
+}
+.selfintroduction_head p,.selfintroduction_foot p{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    line-height: 30px;
+    font-family: '华文行楷';
+    font-size: 20px;
+}
